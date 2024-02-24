@@ -1,0 +1,28 @@
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 100px; /* Gap between boxes */
+  padding-left: 100px; /* Adjust padding from the left */
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  border: 2px solid #bb2020;
+
+  border-radius: 5px;
+  padding: 100px;
+}
+.box span {
+  position: absolute;
+  margin-top: -7%;
+  margin-left: 5%;
+}
+.box img {
+  width: 60px; /* Ensures the image fills the circular box */
+  height: 60px; /* Maintains aspect ratio */
+  background-color: #bb2222;
+  border-radius: 60%;
+}
