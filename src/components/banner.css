@@ -1,7 +1,7 @@
 .homepage-container {
   position: relative;
   height: 800px; /* Adjust height as needed */
-  background-image: url("../Assests/home-banner.jpg"); /* Path to the image file */
+  background-image: url("../Assets/home-banner.jpg"); /* Path to the image file */
   color: white;
   text-align: left;
   padding: 20px;

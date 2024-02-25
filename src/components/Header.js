@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css'; // Import the CSS file
-import Logo from "../Assests/WOOP_Logo_No_BG.png";
+import Logo from "../Assets/WOOP_Logo_No_BG.png";
 
 
 const Header = () => {

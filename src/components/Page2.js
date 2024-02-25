@@ -1,6 +1,6 @@
 import React from 'react';
 import './page2.css'; // Import the CSS file for styling
-import logo1 from "../Assests/preference.svg"
+import logo1 from "../Assets/preference.svg"
 
 
 const Page2 = () => {
