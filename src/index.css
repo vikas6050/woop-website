@@ -1,5 +1,21 @@
+/* Reset styles */
 * {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
+
+/* Media queries for small screens */
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for small screens */
+  .Header {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  .counter {
+    width: 100%; /* Make counters full width on small screens */
+  }
+}
+
+/* Other global styles */
+/* Add other global styles here */

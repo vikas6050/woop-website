@@ -1,11 +1,14 @@
 .homepage-container {
   position: relative;
+
   height: 800px; /* Adjust height as needed */
   background-image: url("../Assets/home-banner.jpg"); /* Path to the image file */
   color: #ffffffff;
   text-align: left;
   padding: 50px;
   box-sizing: border-box;
+  align-items: center;
+  z-index: 0;
 }
 
 .homepage-container::before {
@@ -15,16 +18,19 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(216, 19, 52);
-  opacity: 0.4; /* Adjust opacity as needed */
-  z-index: 1; /* Ensure the overlay appears above the image */
+  background: linear-gradient(
+    90deg,
+    rgba(220, 31, 113, 0.44) 0%,
+    rgba(154, 39, 135, 0.75) 100%
+  );
+  opacity: 0.9;
+  z-index: -1;
 }
 
 .banner-image {
   width: 100%;
   height: auto;
   position: relative;
-  z-index: 0;
 }
 
 .homepage-container h1 {
@@ -46,7 +52,7 @@
   display: inline-block;
 
   box-sizing: border-box;
-  width: 15%;
+  width: 25%;
 }
 
 .counter h2 {

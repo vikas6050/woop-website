@@ -4,7 +4,7 @@ import './banner.css'; // Import CSS file for styling
 
 const Banner = () => {
     return (
-        <div className="homepage-container background-overlay">
+        <div className="homepage-container">
             <h1 className='Header'>Making Marketing With Consumer Data, a force for Good</h1>
             <p>With a cookie-less future, collecting First-party-data is more important now than ever before. WOOP helps brands get highly profiled, highly engaged, and high-performing PII data more efficiently, and at scale. Every 5 minutes a consumer spends on WOOP helps generate funds that sponsor 5 minutes of school for a child in need.</p>
             <div className="counter">
